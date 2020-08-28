@@ -31,8 +31,6 @@ CREATE TABLE "Restaurant_Location" (
 CREATE TABLE "Borough" (
     "Borough" varchar(200)   NOT NULL,
     "Postcode" int   NOT NULL,
-    "Restaurant_Quantity" int   NOT NULL,
-    "Hotel_Quantity" int   NOT NULL,
     CONSTRAINT "pk_Borough" PRIMARY KEY (
         "Borough"
      )
